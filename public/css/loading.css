@@ -1,0 +1,40 @@
+.loader {
+   position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:  rgba(0, 0, 0, 0.3);
+    height: 100%;
+    z-index: 999;
+    display: none;
+ }
+
+ .loader:before , .loader:after{
+   content: "";
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background: #0ca891;
+   box-shadow: 32px 0 #0ca891;
+   left: 50%;
+   top: 50%;
+   animation: ballMoveX 1s linear infinite;
+ }
+
+ .loader:after {
+   box-shadow: none;
+   transform-origin: 40px 0;
+   transform: rotate(-153deg);
+   animation: rotateLoader 1s linear infinite;
+ }
+
+ @keyframes rotateLoader {
+   0% , 10%{ transform: rotate(-153deg); }
+   90%, 100% { transform: rotate(0deg); }
+ }
+ @keyframes ballMoveX {
+   0% , 10%{  transform: translateX(0) }
+   90%, 100% { transform: translateX(32px) }
+ }
+     

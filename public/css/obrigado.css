@@ -1,0 +1,35 @@
+.box {
+   background: #F5F5F5; 
+   min-height: 300px; 
+   border-radius: 7px; 
+   border: 1px solid #DDD;
+}
+
+.tituloObrigado {
+   font-size: 40px; 
+   font-weight: bold; 
+   color:#666666;
+}
+
+.boxBoleto {
+   border: 1px solid #bababa; 
+   border-radius: 5px; 
+   background: #FFF; 
+   height: 50px; 
+   width:50%; 
+   margin: 0 auto; 
+   display: flex;
+}
+
+.btn-boleto {
+   align-items: center; 
+   width: 100%; 
+   align-self: center;
+   text-decoration: none;
+   color: #333;
+}
+
+.btn-boleto:hover {
+   color: #007C7D;
+   text-decoration: none;
+}

@@ -9,7 +9,7 @@
 
 ## Sobre o Laravel
 
-Laravel é um framework de aplicações web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiência agradável e criativa para ser verdadeiramente gratificante. O Laravel simplifica o desenvolvimento facilitando tarefas comuns usadas em muitos projetos da web, como:
+Laravel Ã© um framework de aplicaÃ§Ãµes web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiÃªncia agradÃ¡vel e criativa para ser verdadeiramente gratificante. O Laravel simplifica o desenvolvimento facilitando tarefas comuns usadas em muitos projetos da web, como:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -19,22 +19,32 @@ Laravel é um framework de aplicações web com sintaxe expressiva e elegante. Acre
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-O Laravel é acessível, poderoso e fornece as ferramentas necessárias para aplicativos grandes e robustos.
+O Laravel Ã© acessÃ­vel, poderoso e fornece as ferramentas necessÃ¡rias para aplicativos grandes e robustos.
 
 ## Iniciando o Sistema
 
-Env
-   Inserios os dados de acesso ao banco de dados:
-   DB_DATABASE=
-   DB_USERNAME=
-   DB_PASSWORD=
+<div>.env</div>
+    <div>
+        Inserios os dados de acesso ao banco de dados:
+        <ul>
+            <li>DB_DATABASE=</li>
+            <li>DB_USERNAME=</li>
+            <li>DB_PASSWORD=</li>
+        </ul>
+    </div>
+    <div>
+        Inserir o Token da API Asaas:
+        <ul>
+            <li>TOKENASAAS=</li>
+        </ul>
+    </div>
 
-   Inserir o Token da API Asaas
-   TOKENASAAS=
-
-Banco de dados
-   Fazer um Dump no sql que esta no diretorio:
-   sql/perfectplay.sql
-
-Start na plataforma Laravel
-   php artisan serve
+<div>Banco de dados</div>
+    <div>
+        Fazer um Dump no sql que esta no diretorio:
+        <br>
+        sql/perfectplay.sql
+    </div>
+<br>
+<div>Start na plataforma Laravel</div>
+    <div>php artisan serve</div>
